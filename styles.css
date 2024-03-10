@@ -1,0 +1,117 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Default font for main content */
+    margin: 0;
+    padding: 0;
+    background-color: rgb(152, 11, 143); /* Changed to lavender background color */
+    background-image: linear-gradient(to bottom right, #ff9a9e, #fad0c4); /* Gradient background */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Kode Mono', monospace; /* Font for navigation */
+    font-weight: 500; /* Adjust the font weight as needed */
+    font-style: normal;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Madimi One', sans-serif; /* Font for main content */
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.additional-photos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.additional-photos .photo-pair {
+    display: flex;
+    justify-content: center;
+}
+
+.additional-photos .photo-pair img {
+    width: 150px; /* Reduced image width */
+    height: auto;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* New styles */
+.hero {
+    text-align: center;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+    color: #333; /* Changed h2 color */
+}
+
+.summary {
+    padding: 20px;
+    background-color: #f9f9f9; /* Changed to a light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary h2 {
+    margin-bottom: 10px;
+    color: #333; /* Changed h2 color */
+}
+
+.summary p {
+    margin-bottom: 20px;
+    color: #666; /* Changed paragraph text color */
+}
+
+/* Media Queries */
+@media screen and (min-width: 1200px) {
+    /* Large Desktop Viewport */
+    body {
+        background-image: none; /* Remove gradient background */
+    }
+
+    /* Additional styles for large desktop */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Desktop Viewport */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    /* Tablet Viewport */
+}
+
+@media screen and (max-width: 767px) {
+    /* Mobile Viewport */
+}
+
+@media print {
+    /* Print Styles */
+}
